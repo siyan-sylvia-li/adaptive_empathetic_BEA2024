@@ -26,3 +26,10 @@ Alternatively, if you want to fine-tune your own Llama-2, please refer to the PE
 
 ## Testing Modules
 For each component of the pipeline, you would be able to run the files directly to test the functionalities.
+
+You can run the following files directly to test the functionalities:
+* `ehcalabres_wav2vec_zeroshot.py` - Runs our evaluation for [the speech emotion recognition wav2vec2 model](https://huggingface.co/ehcalabres/wav2vec2-lg-xlsr-en-speech-emotion-recognition) on the emotionally labeled audio data. You can also modify the setup and the threshold to try different combinations.
+* `empathy_generation.py` - Generates adaptive empathetic feedback to user utterances. You can put in three consecutive utterances and see what it generates!
+* `query_response.py` - Our rudimentary rule-based query response mechanism. After the chatbot has given the user a feedback, this allows the user to ask follow-up questions.
+
+Our `app.py` file supplies the general logic of how our chatbot is run, but we don't supply the chat model or the grammar correction function.
