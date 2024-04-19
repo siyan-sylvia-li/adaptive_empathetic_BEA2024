@@ -33,7 +33,7 @@ tokenizer.pad_token = tokenizer.eos_token
 tokenizer.padding_side = "right"
 
 # DATA_PATH = "/local-scratch1/data/siyanli/gec_feedback/dataset/annotated/"
-test_data = pd.read_csv(os.path.join("<PATH_TO_ERACOND_DATA>", "test.csv"))
+test_data = pd.read_csv(os.path.join("data/", "test.csv"))
 
 logging.set_verbosity(logging.CRITICAL)
 

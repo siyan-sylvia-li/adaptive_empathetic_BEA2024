@@ -14,7 +14,7 @@ if __name__ == "__main__":
     output_inferences = []
     tokenizer = T5Tokenizer.from_pretrained('grammar_bot_xl')
     # DATA_PATH = "/local-scratch1/data/siyanli/gec_feedback/dataset/annotated/"
-    test_data = pd.read_csv(os.path.join("<ERACOND_DATA_PATH>", "test.csv"))
+    test_data = pd.read_csv(os.path.join("data/", "test.csv"))
     # test_data = pd.read_csv("output.csv")
     model = AutoModelForSeq2SeqLM.from_pretrained("grammar_bot_xl", device_map="cuda:0")
     for i, a in test_data.iterrows():

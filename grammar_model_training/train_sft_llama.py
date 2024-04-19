@@ -146,7 +146,7 @@ def template_dataset(sample):
 if __name__ == "__main__":
     model, tokenizer, peft_config = load_model(model_name)
     # apply prompt template per sample
-    DATA_PATH = "<PATH_TO_ERACOND>"
+    DATA_PATH = "data/"
     training_data = pd.read_csv(os.path.join(DATA_PATH, "train.csv"))
     eval_data = pd.read_csv(os.path.join(DATA_PATH, "dev.csv"))
     test_data = pd.read_csv(os.path.join(DATA_PATH, "test.csv"))

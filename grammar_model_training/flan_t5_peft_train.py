@@ -40,7 +40,7 @@ if __name__ == "__main__":
     parser.add_argument("--lr", type=float, default=1e-4)
 
     args = parser.parse_args()
-    DATA_PATH = "<PATH_TO_ERACOND_DATA>"
+    DATA_PATH = "data/"
     training_data = pd.read_csv(os.path.join(DATA_PATH, "train.csv"))
     eval_data = pd.read_csv(os.path.join(DATA_PATH, "dev.csv"))
     test_data = pd.read_csv(os.path.join(DATA_PATH, "test.csv"))
