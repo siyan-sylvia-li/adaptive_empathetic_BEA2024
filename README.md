@@ -18,10 +18,9 @@ You can download our fine-tuned Llama-2-7B checkpoint for grammar corrections [h
 
 Alternatively, if you want to fine-tune your own Llama-2 on ErAConD, please refer to the PEFT script under `grammar_model_training/train_llama.py`. We also include a script for training your Flan-T5 models under the same directory.
 
-1. Please first download the ErAConD data [here](https://github.com/yuanxun-yx/eracond).
-2. Modify the respective scripts (`train_sft_llama.py` or `flan_t5_pet_train.py`) with the paths to the data, the desired output directory, and corresponding training parameters.
-3. After training the Llama-2 model, you would need to run `merge_peft.py` to merge the adapter back into the base model.
-4. Run the inference scripts (`llama_2_inference.py` and `t5_inference.py`) to generate on the test set.
+1. Modify the respective scripts (`train_sft_llama.py` or `flan_t5_pet_train.py`) with the paths to the data, the desired output directory, and corresponding training parameters.
+2. After training the Llama-2 model, you would need to run `merge_peft.py` to merge the adapter back into the base model.
+3. Run the inference scripts (`llama_2_inference.py` and `t5_inference.py`) to generate on the test set.
 
 
 ## Testing Modules
