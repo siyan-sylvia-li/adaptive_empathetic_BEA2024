@@ -1,5 +1,5 @@
 # Using Adaptive Empathetic Responses for Teaching English
-Code for our BEA 2024 Submission: Using Adaptive Empathetic Responses for Teaching English.
+Code for our BEA 2024 Submission: [Using Adaptive Empathetic Responses for Teaching English](https://arxiv.org/abs/2404.13764).
 
 ![System Structure](imgs/figure_1.png)
 
