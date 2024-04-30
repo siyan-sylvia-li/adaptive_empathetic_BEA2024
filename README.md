@@ -14,7 +14,7 @@ The repository is organized as follows:
 - `grammar_model_training/`: Code for training various Flan-T5 and Llama-2-7b models on ErAConD data. See the following section for details.
 
 ## Training Grammar Models
-You can download our fine-tuned Llama-2-7B checkpoint for grammar corrections [here](https://huggingface.co/sylviali/eracond_llama_2) on HuggingFace.
+You can download our fine-tuned Llama-2-7B checkpoint for grammar corrections [here](https://huggingface.co/sylviali/eracond_llama_2_grammar) on HuggingFace.
 
 Alternatively, if you want to fine-tune your own Llama-2 on ErAConD, please refer to the PEFT script under `grammar_model_training/train_llama.py`. We also include a script for training your Flan-T5 models under the same directory.
 
